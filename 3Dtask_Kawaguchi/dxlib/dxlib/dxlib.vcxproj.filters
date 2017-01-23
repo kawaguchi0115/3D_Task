@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectX_Lib">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="DirectX_Lib\Init">
+      <UniqueIdentifier>{cb95046d-5d7c-4d86-9ad9-a1c3c499a5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX_Lib\Input">
+      <UniqueIdentifier>{e125c694-a9f1-4ea9-a965-2a43d4621bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX_Lib\Tex">
+      <UniqueIdentifier>{347fa8ed-b089-4156-8788-dd299271355e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX_Lib\wndfunc">
+      <UniqueIdentifier>{f064ab3a-1772-484e-a226-651840ba89da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX_Lib\Lib">
+      <UniqueIdentifier>{ea1884fa-4dd1-495e-a3a8-7c760b5e8d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX_Lib\Fbx">
+      <UniqueIdentifier>{e5d03a7a-e570-4a62-8450-27270d597e3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dx_Init.cpp">
+      <Filter>DirectX_Lib\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="dx_input.cpp">
+      <Filter>DirectX_Lib\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="dx_tex.cpp">
+      <Filter>DirectX_Lib\Tex</Filter>
+    </ClCompile>
+    <ClCompile Include="wndfunc.cpp">
+      <Filter>DirectX_Lib\wndfunc</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxModel.cpp">
+      <Filter>DirectX_Lib\Fbx</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxRelated.cpp">
+      <Filter>DirectX_Lib\Fbx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dx_Init.h">
+      <Filter>DirectX_Lib\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="dx_input.h">
+      <Filter>DirectX_Lib\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="dx_lib.h">
+      <Filter>DirectX_Lib\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="dx_tex.h">
+      <Filter>DirectX_Lib\Tex</Filter>
+    </ClInclude>
+    <ClInclude Include="wndfunc.h">
+      <Filter>DirectX_Lib\wndfunc</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxModel.h">
+      <Filter>DirectX_Lib\Fbx</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxRelated.h">
+      <Filter>DirectX_Lib\Fbx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
